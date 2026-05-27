@@ -26,6 +26,7 @@ export default defineConfig({
           { text: 'Inbox', link: '/notes/inbox' },
           { text: '阅读笔记', link: '/notes/reading' },
           { text: '日语学习', link: '/notes/japanese/' },
+          { text: '粤语学习', link: '/notes/cantonese/' },
           { text: '金融监管', link: '/notes/regulatory/' },
           { text: '技术笔记', link: '/notes/technical' }
         ]
@@ -56,6 +57,13 @@ export default defineConfig({
             { text: '日语语法', link: '/notes/japanese/grammar' },
             { text: '日语听力', link: '/notes/japanese/listening' },
             { text: '日语资源', link: '/notes/japanese/resources' },
+            { text: '粤语学习', link: '/notes/cantonese/' },
+            { text: '粤语学习计划', link: '/notes/cantonese/plan' },
+            { text: '粤语词汇', link: '/notes/cantonese/vocabulary' },
+            { text: '发音与粤拼', link: '/notes/cantonese/pronunciation' },
+            { text: '粤语表达', link: '/notes/cantonese/phrases' },
+            { text: '粤语听力', link: '/notes/cantonese/listening' },
+            { text: '粤语资源', link: '/notes/cantonese/resources' },
             { text: '金融监管', link: '/notes/regulatory/' },
             { text: 'SFC 26EC29 开户管控', link: '/notes/regulatory/sfc-26ec29-account-opening-controls' },
             { text: '技术笔记', link: '/notes/technical' }

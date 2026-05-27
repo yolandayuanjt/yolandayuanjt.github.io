@@ -9,6 +9,7 @@
 | [Inbox](/notes/inbox) | 暂存未整理的信息 |
 | [阅读笔记](/notes/reading) | 书、文章、论文、播客和课程摘录 |
 | [日语学习](/notes/japanese/) | 学习计划、单词、语法、听力和复习记录 |
+| [粤语学习](/notes/cantonese/) | 粤拼、词汇、常用表达、听力和复习记录 |
 | [金融监管](/notes/regulatory/) | SFC、香港市场监管、合规要求和监管文件整理 |
 | [技术笔记](/notes/technical) | 工程问题、命令、调试记录和方案比较 |
 | [笔记模板](/notes/template) | 新建笔记时可复用的结构 |
