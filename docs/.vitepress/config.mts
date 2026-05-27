@@ -47,26 +47,56 @@ export default defineConfig({
           ]
         },
         {
-          text: '主题笔记',
+          text: '通用笔记',
           collapsed: false,
           items: [
             { text: '阅读笔记', link: '/notes/reading' },
-            { text: '日语学习', link: '/notes/japanese/' },
-            { text: '日语学习计划', link: '/notes/japanese/plan' },
-            { text: '日语单词', link: '/notes/japanese/vocabulary' },
-            { text: '日语语法', link: '/notes/japanese/grammar' },
-            { text: '日语听力', link: '/notes/japanese/listening' },
-            { text: '日语资源', link: '/notes/japanese/resources' },
-            { text: '粤语学习', link: '/notes/cantonese/' },
-            { text: '粤语学习计划', link: '/notes/cantonese/plan' },
-            { text: '粤语词汇', link: '/notes/cantonese/vocabulary' },
-            { text: '发音与粤拼', link: '/notes/cantonese/pronunciation' },
-            { text: '粤语表达', link: '/notes/cantonese/phrases' },
-            { text: '粤语听力', link: '/notes/cantonese/listening' },
-            { text: '粤语资源', link: '/notes/cantonese/resources' },
-            { text: '金融监管', link: '/notes/regulatory/' },
-            { text: 'SFC 26EC29 开户管控', link: '/notes/regulatory/sfc-26ec29-account-opening-controls' },
             { text: '技术笔记', link: '/notes/technical' }
+          ]
+        },
+        {
+          text: '语言学习',
+          collapsed: false,
+          items: [
+            {
+              text: '日语',
+              collapsed: true,
+              items: [
+                { text: '总览', link: '/notes/japanese/' },
+                { text: '学习计划', link: '/notes/japanese/plan' },
+                { text: '单词', link: '/notes/japanese/vocabulary' },
+                { text: '语法', link: '/notes/japanese/grammar' },
+                { text: '听力', link: '/notes/japanese/listening' },
+                { text: '资源', link: '/notes/japanese/resources' }
+              ]
+            },
+            {
+              text: '粤语',
+              collapsed: true,
+              items: [
+                { text: '总览', link: '/notes/cantonese/' },
+                { text: '学习计划', link: '/notes/cantonese/plan' },
+                { text: '词汇', link: '/notes/cantonese/vocabulary' },
+                { text: '发音与粤拼', link: '/notes/cantonese/pronunciation' },
+                { text: '常用表达', link: '/notes/cantonese/phrases' },
+                { text: '听力', link: '/notes/cantonese/listening' },
+                { text: '资源', link: '/notes/cantonese/resources' }
+              ]
+            }
+          ]
+        },
+        {
+          text: '专业主题',
+          collapsed: false,
+          items: [
+            {
+              text: '金融监管',
+              collapsed: false,
+              items: [
+                { text: '总览', link: '/notes/regulatory/' },
+                { text: 'SFC 26EC29 开户管控', link: '/notes/regulatory/sfc-26ec29-account-opening-controls' }
+              ]
+            }
           ]
         }
       ],
