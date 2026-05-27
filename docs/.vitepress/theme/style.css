@@ -1,0 +1,61 @@
+:root {
+  --vp-c-brand-1: #18736d;
+  --vp-c-brand-2: #0f5d58;
+  --vp-c-brand-3: #2c9b91;
+  --vp-c-brand-soft: rgba(24, 115, 109, 0.14);
+  --vp-c-bg-alt: #f6f7f4;
+  --vp-c-text-1: #1f2d2b;
+  --vp-c-text-2: #4e5d59;
+  --vp-c-border: #dce3df;
+  --vp-home-hero-name-color: #18736d;
+}
+
+.dark {
+  --vp-c-brand-1: #4ab8ab;
+  --vp-c-brand-2: #6bc8bd;
+  --vp-c-brand-3: #2f8f86;
+  --vp-c-brand-soft: rgba(74, 184, 171, 0.16);
+  --vp-c-bg-alt: #18211f;
+  --vp-c-text-1: #eef4f2;
+  --vp-c-text-2: #b9c8c4;
+  --vp-c-border: #30423e;
+}
+
+.VPNavBarTitle .logo {
+  border-radius: 8px;
+}
+
+.vp-doc h2 {
+  margin-top: 40px;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 24px;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+  font-size: 14px;
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-alt);
+}
+
+.vp-doc blockquote {
+  border-left-color: var(--vp-c-brand-1);
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc .custom-block {
+  border-radius: 8px;
+}
+
+.VPFeature {
+  border-radius: 8px !important;
+}
+
+@media (max-width: 640px) {
+  .vp-doc table {
+    display: block;
+  }
+}
