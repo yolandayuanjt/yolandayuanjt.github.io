@@ -44,6 +44,12 @@
 | MDN | Web 技术文档 | https://developer.mozilla.org |
 | npm | JavaScript 包查询 | https://www.npmjs.com |
 
+## 友情链接
+
+| 名称 | 说明 | 链接 |
+| --- | --- | --- |
+| junmo1215 | 朋友的个人站点 | https://junmo1215.github.io/ |
+
 ## 收录标准
 
 - 能反复使用。
