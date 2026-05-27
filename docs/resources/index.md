@@ -26,6 +26,7 @@
 | 名称 | 用途 | 链接 |
 | --- | --- | --- |
 | 香港证监会 SFC | 香港证券及期货市场监管信息 | https://www.sfc.hk/en/ |
+| AASTOCKS | 查询股票行情、公司资料和市场资讯 | https://www.aastocks.com/en/default.aspx |
 
 ### 学习
 
