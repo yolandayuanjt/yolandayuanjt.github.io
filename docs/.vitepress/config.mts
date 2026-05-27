@@ -13,7 +13,7 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: '知识库',
+    siteTitle: 'Yolanda的知识库',
     search: {
       provider: 'local'
     },
