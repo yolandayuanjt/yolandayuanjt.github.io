@@ -92,7 +92,7 @@ export default defineConfig({
           items: [
             {
               text: '金融监管',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '总览', link: '/notes/regulatory/' },
                 { text: 'SFC 26EC29 开户管控', link: '/notes/regulatory/sfc-26ec29-account-opening-controls' }
@@ -100,7 +100,7 @@ export default defineConfig({
             },
             {
               text: 'Web3 与虚拟货币',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '总览', link: '/notes/web3/' },
                 { text: '基础概念', link: '/notes/web3/basics' },
