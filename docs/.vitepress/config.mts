@@ -25,6 +25,7 @@ export default defineConfig({
           { text: '笔记总览', link: '/notes/' },
           { text: 'Inbox', link: '/notes/inbox' },
           { text: '阅读笔记', link: '/notes/reading' },
+          { text: '日语学习', link: '/notes/japanese/' },
           { text: '金融监管', link: '/notes/regulatory/' },
           { text: '技术笔记', link: '/notes/technical' }
         ]
@@ -49,6 +50,12 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '阅读笔记', link: '/notes/reading' },
+            { text: '日语学习', link: '/notes/japanese/' },
+            { text: '日语学习计划', link: '/notes/japanese/plan' },
+            { text: '日语单词', link: '/notes/japanese/vocabulary' },
+            { text: '日语语法', link: '/notes/japanese/grammar' },
+            { text: '日语听力', link: '/notes/japanese/listening' },
+            { text: '日语资源', link: '/notes/japanese/resources' },
             { text: '金融监管', link: '/notes/regulatory/' },
             { text: 'SFC 26EC29 开户管控', link: '/notes/regulatory/sfc-26ec29-account-opening-controls' },
             { text: '技术笔记', link: '/notes/technical' }
