@@ -28,6 +28,7 @@ export default defineConfig({
           { text: '日语学习', link: '/notes/japanese/' },
           { text: '粤语学习', link: '/notes/cantonese/' },
           { text: '金融监管', link: '/notes/regulatory/' },
+          { text: 'Web3', link: '/notes/web3/' },
           { text: '技术笔记', link: '/notes/technical' }
         ]
       },
@@ -95,6 +96,19 @@ export default defineConfig({
               items: [
                 { text: '总览', link: '/notes/regulatory/' },
                 { text: 'SFC 26EC29 开户管控', link: '/notes/regulatory/sfc-26ec29-account-opening-controls' }
+              ]
+            },
+            {
+              text: 'Web3 与虚拟货币',
+              collapsed: false,
+              items: [
+                { text: '总览', link: '/notes/web3/' },
+                { text: '基础概念', link: '/notes/web3/basics' },
+                { text: '虚拟货币', link: '/notes/web3/crypto-assets' },
+                { text: '钱包与交易所', link: '/notes/web3/wallets-exchanges' },
+                { text: '风险与合规', link: '/notes/web3/risks-compliance' },
+                { text: '术语表', link: '/notes/web3/glossary' },
+                { text: '研究笔记', link: '/notes/web3/research-notes' }
               ]
             }
           ]
