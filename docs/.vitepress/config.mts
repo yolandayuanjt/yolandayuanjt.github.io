@@ -25,6 +25,7 @@ export default defineConfig({
           { text: '笔记总览', link: '/notes/' },
           { text: 'Inbox', link: '/notes/inbox' },
           { text: '阅读笔记', link: '/notes/reading' },
+          { text: '金融监管', link: '/notes/regulatory/' },
           { text: '技术笔记', link: '/notes/technical' }
         ]
       },
@@ -48,6 +49,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '阅读笔记', link: '/notes/reading' },
+            { text: '金融监管', link: '/notes/regulatory/' },
+            { text: 'SFC 26EC29 开户管控', link: '/notes/regulatory/sfc-26ec29-account-opening-controls' },
             { text: '技术笔记', link: '/notes/technical' }
           ]
         }
